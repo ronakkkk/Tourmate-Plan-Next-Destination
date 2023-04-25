@@ -25,7 +25,6 @@ urlpatterns = [
     path('',include("flight.urls")),
     path("accounts/", include("allauth.urls")),
     # path('favicon.ico', RedirectView.as_view(url=staticfiles_storage.url('img/favicon.ico')))
-] \
-urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 
     # static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
