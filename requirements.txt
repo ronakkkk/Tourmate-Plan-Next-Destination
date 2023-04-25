@@ -1,5 +1,5 @@
 ﻿
-django
+django==3.2.18
 absl-py==1.0.0
 aiohttp==3.8.4
 aiosignal==1.3.1
