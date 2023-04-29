@@ -4,7 +4,13 @@ Welcome to the repository for our Tour Management System! This software is desig
 
 ## Features
 
-- To be updated 
+- Flight Booking
+- Hotel Booking
+- Admin Dual Authentication
+- Login/Register with Gmail
+- Search and Explore
+- Payment Gateway
+- Generate Tciket
 
 
 ## Requirements
